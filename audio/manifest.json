@@ -1,0 +1,114 @@
+{
+  "s1_somsak": {
+    "provider": "edge-tts",
+    "voice": "th-TH-NiwatNeural",
+    "model": "edge-neural",
+    "duration": 7.992,
+    "text": "โธ่! ที่ AI ตอบไวขนาดนี้ ข้างในเซิร์ฟเวอร์ต้องมีแอดมินตัวจิ๋วนั่งกด Ctrl+F ก๊อปวางคำตอบจากคลังข้อสอบแน่ๆ!"
+  },
+  "s1_narrator": {
+    "provider": "edge-tts",
+    "voice": "th-TH-PremwadeeNeural",
+    "model": "edge-neural",
+    "duration": 8.736,
+    "text": "ถ้ามีแอดมินจริง ป่านนี้ลาออกไปแล้วครับสมศักดิ์! ความจริงข้างในไม่มีคนแอบพิมพ์ แต่มีเครื่องจักรทายคำทีละชิ้นที่เรียกว่า Large Language Model"
+  },
+  "s2_narrator_a": {
+    "provider": "edge-tts",
+    "voice": "th-TH-PremwadeeNeural",
+    "model": "edge-neural",
+    "duration": 7.824,
+    "text": "ขั้นแรก โมเดลอ่านภาษาคนตรงๆ ไม่ได้ครับ มันต้องหั่นข้อความเป็นชิ้นย่อยๆ ที่เรียกว่า Token แล้วแปลงทุกชิ้นเป็นรหัสตัวเลข"
+  },
+  "s2_somsak": {
+    "provider": "edge-tts",
+    "voice": "th-TH-NiwatNeural",
+    "model": "edge-neural",
+    "duration": 4.632,
+    "text": "ห๊ะ! แค่เว้นวรรคกับอีโมจิ ก็โดนหั่นนับเป็น Token ด้วยเหรอครับเนี่ย?!"
+  },
+  "s2_narrator_b": {
+    "provider": "edge-tts",
+    "voice": "th-TH-PremwadeeNeural",
+    "model": "edge-neural",
+    "duration": 5.496,
+    "text": "ใช่ครับ สำหรับ AI ทุกอย่างคือชิ้นส่วนเลโก้ตัวเลขที่พร้อมเอาไปคำนวณต่อ"
+  },
+  "s3_somsak": {
+    "provider": "edge-tts",
+    "voice": "th-TH-NiwatNeural",
+    "model": "edge-neural",
+    "duration": 6.936,
+    "text": "ถ้าให้ผมเดาคำต่อจาก 'ขึ้น...' เฉยๆ ผมเดาว่า 'ขึ้นต้นไม้' หรือ 'ขึ้นอืด' ก็ได้นะ!"
+  },
+  "s3_narrator": {
+    "provider": "edge-tts",
+    "voice": "th-TH-PremwadeeNeural",
+    "model": "edge-neural",
+    "duration": 14.088,
+    "text": "ถ้าดูแค่คำเดียวก็มั่วสิครับ! แต่สถาปัตยกรรม Transformer มีกลไก Self-Attention ที่ส่องไฟฉายย้อนกลับไปเชื่อมบริบททั้งประโยค—พอเห็นคำว่า 'เช้านี้' 'ตื่นสาย' และ 'รีบวิ่ง' ความหมายก็แคบลงทันที"
+  },
+  "s4_narrator": {
+    "provider": "edge-tts",
+    "voice": "th-TH-PremwadeeNeural",
+    "model": "edge-neural",
+    "duration": 8.568,
+    "text": "จากบริบททั้งหมด โมเดลจะคำนวณคะแนนดิบแล้วแปลงผ่านฟังก์ชัน Softmax ออกมาเป็น 'ความน่าจะเป็น' ของทุก Token ในคลังคำศัพท์"
+  },
+  "s4_somsak": {
+    "provider": "edge-tts",
+    "voice": "th-TH-NiwatNeural",
+    "model": "edge-neural",
+    "duration": 9.936,
+    "text": "โอ้โห! มันไม่ได้มีคำตอบเดียวในหัว แต่มันให้คะแนนทุกคำที่เป็นไปได้... เดี๋ยวนะ ทำไมมี 'เรือเหาะ 0.01%' โผล่มาด้วยล่ะครับ?!"
+  },
+  "s5_narrator_a": {
+    "provider": "edge-tts",
+    "voice": "th-TH-PremwadeeNeural",
+    "model": "edge-neural",
+    "duration": 6.744,
+    "text": "ตรงนี้แหละครับที่ค่า Temperature เข้ามามีบทบาท—ถ้าปรับต่ำใกล้ศูนย์ AI จะเลือกแต่คำที่ชัวร์สุด เป๊ะแต่แอบน่าเบื่อ"
+  },
+  "s5_somsak": {
+    "provider": "edge-tts",
+    "voice": "th-TH-NiwatNeural",
+    "model": "edge-neural",
+    "duration": 4.104,
+    "text": "งั้นผมขอหมุนสุดหลอดเลยครับ! อยากได้ความครีเอทีฟ!"
+  },
+  "s5_narrator_b": {
+    "provider": "edge-tts",
+    "voice": "th-TH-PremwadeeNeural",
+    "model": "edge-neural",
+    "duration": 8.568,
+    "text": "ระวังครับสมศักดิ์! พอ Temperature สูง กราฟจะแบนราบจนคำแปลกๆ มีลุ้นชนะ... นั่นไง ได้ 'รีบวิ่งไปขึ้นเรือเหาะ' เฉยเลย!"
+  },
+  "s6_narrator": {
+    "provider": "edge-tts",
+    "voice": "th-TH-PremwadeeNeural",
+    "model": "edge-neural",
+    "duration": 11.4,
+    "text": "พอเลือกคำว่า 'รถเมล์' ได้แล้ว งานยังไม่จบครับ โมเดลจะเอาคำนี้ไปต่อท้ายประโยคเดิม แล้ววนลูปคำนวณใหม่ทั้งหมดเพื่อทาย Token ถัดไปเรื่อยๆ จนเจอสัญญาณหยุด"
+  },
+  "s6_somsak": {
+    "provider": "edge-tts",
+    "voice": "th-TH-NiwatNeural",
+    "model": "edge-neural",
+    "duration": 6.216,
+    "text": "อ๋อ! มันไม่ได้คิดจบทั้งย่อหน้าล่วงหน้า แต่มันค่อยๆ ต่อทีละก้าวจากสิ่งที่เพิ่งพูดออกไปเอง!"
+  },
+  "s7_narrator": {
+    "provider": "edge-tts",
+    "voice": "th-TH-PremwadeeNeural",
+    "model": "edge-neural",
+    "duration": 9.6,
+    "text": "สรุปสั้นๆ LLM ไม่ได้ก๊อปวางคำตอบ แต่มันคือสุดยอดนักทายคำที่แปลงข้อความเป็น Token จับบริบทด้วย Attention คำนวณความน่าจะเป็น แล้วต่อประโยคทีละก้าวครับ"
+  },
+  "s7_somsak": {
+    "provider": "edge-tts",
+    "voice": "th-TH-NiwatNeural",
+    "model": "edge-neural",
+    "duration": 6.72,
+    "text": "เข้าใจแจ่มแจ้งเลยครับ! คราวหน้าพิมพ์คุยกับ AI จะได้รู้ว่าเบื้องหลังมันกำลังลุ้นทายคำถัดไปอยู่!"
+  }
+}
